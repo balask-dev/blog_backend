@@ -30,6 +30,6 @@ app.use("/api/users", userRoute);
 app.use("/api/categories",categoryRoute);
 app.use("/api/posts", postRoute);
 
-app.listen(4000 || process.env.PORT, () => {
+app.listen(process.env.PORT, () => {
   console.log("Connected");
 });
